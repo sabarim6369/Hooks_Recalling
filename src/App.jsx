@@ -42,11 +42,17 @@
 
 import './App.css'
 import UseReducer from './Hooks/useReducer'
+import UseMemo from './Hooks/useMemo'
+import UseLayoutEffect from './Hooks/useLayoutEffect'
+import UseRef from './Hooks/useRef'
 function App() {
   
   return (
    <>
-   <UseReducer/>
+   {/* <UseReducer/> */}
+   {/* <UseMemo/> */}
+   {/* <UseLayoutEffect/> */}
+   <UseRef/>
    </>
   )
 }
